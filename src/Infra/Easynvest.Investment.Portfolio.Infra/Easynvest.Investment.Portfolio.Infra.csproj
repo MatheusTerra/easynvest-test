@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Easynvest.Investment.Portfolio.Infra.Http\Easynvest.Investment.Portfolio.Infra.Http.csproj" />
+    <ProjectReference Include="..\..\Core\Easynvest.Investment.Portfolio.Domain\Easynvest.Investment.Portfolio.Domain.csproj" />
+    <ProjectReference Include="..\Easynvest.Investment.Portfolio.Infra.Cache\Easynvest.Investment.Portfolio.Infra.Cache.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="5.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.5.1" />
+    <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="5.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Easynvest.Investment.Portfolio.Infra.Http\Easynvest.Investment.Portfolio.Infra.Http.csproj" />
+    <ProjectReference Include="..\Easynvest.Investment.Portfolio.Infra\Easynvest.Investment.Portfolio.Infra.csproj" />
+    <ProjectReference Include="..\..\Core\Easynvest.Investment.Portfolio.Domain\Easynvest.Investment.Portfolio.Domain.csproj" />
+    <ProjectReference Include="..\Easynvest.Investment.Portfolio.Infra.Cache\Easynvest.Investment.Portfolio.Infra.Cache.csproj" />
+  </ItemGroup>
+
+</Project>
