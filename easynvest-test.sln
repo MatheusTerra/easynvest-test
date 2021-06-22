@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Easynvest.Investment.Portfo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Easynvest.Investment.Portfolio.Infra.Ioc", "src\Infra\Easynvest.Investment.Portfolio.Infra.Ioc\Easynvest.Investment.Portfolio.Infra.Ioc.csproj", "{A25DC90B-A218-463E-899E-BB0F24DFC3C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Easynvest.Investment.Portfolio.Infra", "src\Infra\Easynvest.Investment.Portfolio.Infra\Easynvest.Investment.Portfolio.Infra.csproj", "{07EA6AAB-E43D-423E-94DB-68699C4F3C34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -110,6 +112,18 @@ Global
 		{A25DC90B-A218-463E-899E-BB0F24DFC3C7}.Release|x64.Build.0 = Release|Any CPU
 		{A25DC90B-A218-463E-899E-BB0F24DFC3C7}.Release|x86.ActiveCfg = Release|Any CPU
 		{A25DC90B-A218-463E-899E-BB0F24DFC3C7}.Release|x86.Build.0 = Release|Any CPU
+		{07EA6AAB-E43D-423E-94DB-68699C4F3C34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07EA6AAB-E43D-423E-94DB-68699C4F3C34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07EA6AAB-E43D-423E-94DB-68699C4F3C34}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{07EA6AAB-E43D-423E-94DB-68699C4F3C34}.Debug|x64.Build.0 = Debug|Any CPU
+		{07EA6AAB-E43D-423E-94DB-68699C4F3C34}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{07EA6AAB-E43D-423E-94DB-68699C4F3C34}.Debug|x86.Build.0 = Debug|Any CPU
+		{07EA6AAB-E43D-423E-94DB-68699C4F3C34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07EA6AAB-E43D-423E-94DB-68699C4F3C34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07EA6AAB-E43D-423E-94DB-68699C4F3C34}.Release|x64.ActiveCfg = Release|Any CPU
+		{07EA6AAB-E43D-423E-94DB-68699C4F3C34}.Release|x64.Build.0 = Release|Any CPU
+		{07EA6AAB-E43D-423E-94DB-68699C4F3C34}.Release|x86.ActiveCfg = Release|Any CPU
+		{07EA6AAB-E43D-423E-94DB-68699C4F3C34}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{2129F863-8BEE-4D6B-94C9-FDABB1E24B1D} = {32A62FA6-794A-44B6-A1C4-540326E93539}
@@ -121,5 +135,6 @@ Global
 		{08EA9AE0-774B-4E04-95ED-8E322EC45B73} = {A26CE973-1A89-4680-BBF2-5333CD278CCC}
 		{3FD22B24-6000-445C-B8AD-017D10C56EC7} = {A26CE973-1A89-4680-BBF2-5333CD278CCC}
 		{A25DC90B-A218-463E-899E-BB0F24DFC3C7} = {A26CE973-1A89-4680-BBF2-5333CD278CCC}
+		{07EA6AAB-E43D-423E-94DB-68699C4F3C34} = {A26CE973-1A89-4680-BBF2-5333CD278CCC}
 	EndGlobalSection
 EndGlobal
